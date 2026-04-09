@@ -6,63 +6,60 @@ This project demonstrates the implementation of a **Data Warehouse solution** us
 
 The objective is to transform raw datasets into structured, analysis-ready data and generate meaningful business insights using SQL.
 
-## 🔹 Project Requirements
+## 🎯 Objective
 
-### 📌 Functional Requirements
+The objective of this project is to design and implement a **Data Warehouse** using PostgreSQL to analyze sales data and generate meaningful business insights.
 
-* Create a **data warehouse database** using PostgreSQL
-* Design and implement a **Star Schema** (Fact & Dimension tables)
-* Load data from CSV files into database tables
-* Perform **data cleaning and transformation**
-* Execute SQL queries for business analysis
-* Generate insights such as:
-
-  * Sales trends
-  * Customer analysis
-  * Product performance
+This project focuses on transforming raw data into structured information that supports data-driven decision-making.
 
 ---
 
-### 📌 Non-Functional Requirements
+## 🧠 Specialization
 
-* Ensure data consistency and accuracy
-* Maintain clear and readable SQL scripts
-* Optimize queries for performance (basic level)
-* Organize project structure for easy understanding
-
----
-
-### 📌 Data Requirements
-
-* Input data in CSV format:
-
-  * Customers data
-  * Products data
-  * Sales data
-* Proper data types (INT, VARCHAR, DATE, etc.)
-* Clean and validated datasets before analysis
+* Data Analysis using SQL
+* Data Cleaning and Transformation
+* Data Modeling (Star Schema)
+* Business Intelligence and Reporting
 
 ---
 
-### 📌 Tools & Technologies
+## 📊 Analytics & Reporting (Data Analyst Focus)
 
-* PostgreSQL
-* SQL (Joins, Aggregations, Filtering)
-* (Optional) Power BI / Tableau
+This project emphasizes the role of a **Data Analyst** in extracting insights from structured data.
+
+### Key Analysis Performed:
+
+* Sales performance analysis
+* Customer behavior insights
+* Product performance evaluation
+* Time-based trends (monthly/yearly sales)
+
+### Reporting:
+
+* SQL-based reports using aggregations and joins
+* (Optional) Dashboard integration with:
+
+  * Power BI
+  * Tableau
 
 ---
 
-### 📌 Expected Outcomes
+## 📜 License
 
-* Structured and query-optimized data warehouse
-* Clean and transformed datasets
-* Insightful SQL queries answering business questions
-* (Optional) Interactive dashboard for visualization
+This project is licensed under the **MIT License**, allowing free use, modification, and distribution.
 
 ---
 
+## 👨‍💻 About Me
 
-## 👨‍💻 Author
+Hi, I’m Aniket** Suryawanshi** 👋
 
-**Aniket Suryawanshi**
-GitHub: https://github.com/surajsuryawanshi12
+I am an aspiring **Data Analyst** with a strong interest in:
+
+* SQL and Data Analysis
+* Data Visualization
+* Building real-world data projects
+
+This project reflects my ability to work with structured data, perform analysis, and generate business insights using modern data tools.
+
+🔗 GitHub: https://github.com/surajsuryawanshi12
