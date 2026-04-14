@@ -1,3 +1,21 @@
+/*
+=============================================================
+Procedure: bronze.load_bronze
+=============================================================
+Purpose:
+    - Reset (truncate) all Bronze layer tables
+    - Track execution start and end time
+    - Log total execution duration
+    - Handle errors gracefully
+
+Usage:
+    CALL bronze.load_bronze();
+
+Notes:
+    - Data import is handled manually via pgAdmin
+    - This procedure prepares tables for fresh data load
+*/
+
 CREATE OR REPLACE PROCEDURE bronze.load_bronze()
 LANGUAGE plpgsql
 AS $$
@@ -9,12 +27,14 @@ BEGIN
     -- Start time
     start_time := NOW();
     RAISE NOTICE 'Process started at: %', start_time;
-
-    -- Your main logic
-     TRUNCATE TABLE 
+ 
+    -- Truncate Bronze tables
+    TRUNCATE TABLE 
         bronze.crm_cust_info,
         bronze.crm_prd_info,
         bronze.crm_sales_details;
+
+    RAISE NOTICE 'Tables truncated successfully';
 
     -- End time
     end_time := NOW();
