@@ -6,7 +6,7 @@ Load Data into Bronze Layer (PostgreSQL)
 Method Used:
     pgAdmin Import/Export Tool (GUI-based)
 
-Steps:
+* it performs the follwoing actions: 
     1. Right-click table
     2. Select Import/Export Data
     3. Choose CSV file
@@ -15,7 +15,10 @@ Steps:
         - Header: TRUE
         - Encoding: UTF-8
         - Delimiter: ,
-
+     - truncate the bronze tables before loading data.
+    
+parameter:
+none 
 Note:
     COPY works only if PostgreSQL server has file access.
 */
