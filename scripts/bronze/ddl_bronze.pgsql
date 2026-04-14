@@ -20,17 +20,17 @@ Note:
     COPY works only if PostgreSQL server has file access.
 */
 /*
-=============================================================
-Create Bronze Layer Tables (PostgreSQL)
-=============================================================
+raise notice '============================================================='
+ raise notice 'Create Bronze Layer Tables (PostgreSQL)'
+raise notice '============================================================='
 */
 
 -- Create Schema
 CREATE SCHEMA IF NOT EXISTS bronze;
 
--- =========================
--- CRM TABLES
--- =========================
+raise notice '========================='
+raise notice 'CRM TABLES';
+raise notice' ========================='
 
 CREATE TABLE IF NOT EXISTS bronze.crm_cust_info (
     cst_id INTEGER,
@@ -62,10 +62,9 @@ CREATE TABLE IF NOT EXISTS bronze.crm_sales_details (
     quantity INTEGER,
     price INTEGER
 );
-
--- =========================
--- ERP TABLES
--- =========================
+raise notice '========================='
+raise notice 'ERP TABLES';
+raise notice' ========================='
 
 CREATE TABLE IF NOT EXISTS bronze.erp_cust_az12 (
     cid INTEGER,
